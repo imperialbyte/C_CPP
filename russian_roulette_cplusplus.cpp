@@ -14,7 +14,7 @@ void spin_chamber()
 {
     active_chamber = rand() % MAX_ROUNDS;
     current_chamber = 1;
-    std::cout << "You spun the chambere!" << std::endl;
+    std::cout << "You spun the chamber!" << std::endl;
 }
 
 void shoot()
