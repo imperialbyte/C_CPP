@@ -114,7 +114,7 @@ int main() {
                     return 0;
                 default:
                     std::cout << "How did you even get this error?" << std::endl;
-                    break;;
+                    break;
             }
         }
     } while (alive);
