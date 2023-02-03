@@ -8,7 +8,7 @@
 
 const int MAX_ROUNDS = 6;
 
-std::string print_animation(std::string text);
+void print_animation(std::string text);
 
 int option;
 
@@ -123,11 +123,10 @@ int main() {
     return 0;
 }
 
-std::string print_animation(std::string text)
+void print_animation(std::string text)
 {
     for (int i = 0; i < text.length(); i++) {
         std::cout << text[i];
         Sleep(50);
     }
-    return "";
 }
